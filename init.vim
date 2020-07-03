@@ -163,7 +163,7 @@ Plug 'prettier/vim-prettier', {
     \ 'ruby',
     \ 'html',
     \ 'swift' ] }
-Plug 'neoclide/coc.nvim', {'branch': 'release'}
+" Plug 'neoclide/coc.nvim', {'branch': 'release'}
 Plug 'tveskag/nvim-blame-line'
 Plug 'junegunn/gv.vim'
 Plug 'tpope/vim-fugitive'
@@ -171,7 +171,7 @@ Plug 'wsdjeg/FlyGrep.vim'
 Plug 'Shougo/echodoc.vim'
 Plug 'edkolev/tmuxline.vim'
 Plug 'fatih/vim-go', { 'do': ':GoUpdateBinaries' }
-Plug 'dart-lang/dart-vim-plugin'
+" Plug 'dart-lang/dart-vim-plugin'
 Plug 'morhetz/gruvbox'
 call plug#end()
 
