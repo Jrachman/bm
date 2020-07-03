@@ -69,7 +69,7 @@ map cmd+d new_window
 ## tmux
 
 1. Run `brew install tmux`. <sup>8</sup>
-2. Run `cp <path_to_kitty-nvim-tmux-ultimate-setup_folder>/.tmux.conf ~/.tmux.conf`.
+2. Run `cp <path_to_kitty-nvim-tmux-ultimate-setup_folder>/.tmux.conf ~/.tmux.conf` and then `tmux source-file ~/.tmux.conf`.
 3. Run `tmux` then run `nvim`.
 4. In Neovim, execute `:Tmuxline` and then `:TmuxlineSnapshot ~/.tmux.conf`. <sup>9</sup>
 5. Exit out of Neovim with `:q` and then kill your tmux session with hitting (CTRL-B)-X-Y
