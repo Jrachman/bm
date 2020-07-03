@@ -3,7 +3,11 @@
 ## Notes
 
 - These instructions were written primarily for <b>Mac</b> but can be translated for Linux and Windows.
-- The theme used throughout this setup is <b>gruvbox dark</b>.
+- The theme and font used throughout this setup are <b>gruvbox dark</b> and <b>FiraCode Nerd Font</b>.
+
+## Preparation
+
+1. Run `git clone https://github.com/Jrachman/kitty-nvim-tmux-ultimate-setup.git`.
 
 ## Kitty
 
@@ -42,7 +46,19 @@ map cmd+d new_window
 
 ## Neovim
 
-1. Run `brew install neovim`. 
+1. Run the following: <sup>3</sup>
+
+`brew install neovim`
+
+`mkdir ~/.config/nvim`
+
+`cp <path_to_kitty-nvim-tmux-ultimate-setup_folder>/init.vim ~/.config/nvim/init.vim` <sup>4</sup>
+
+`brew tap homebrew/cask-fonts && brew cask install font-fira-code-nerd-font`
+
+`brew install fzf` <sup>5</sup>
+
+`brew install ripgrep` <sup>6</sup>
 
 2. 
 
@@ -50,3 +66,11 @@ map cmd+d new_window
 <sup>1</sup> https://sw.kovidgoyal.net/kitty/binary.html#customizing-the-installation
 
 <sup>2</sup> https://github.com/dexpota/kitty-themes/tree/master/themes
+
+<sup>3</sup> https://github.com/neovim/neovim/wiki/Installing-Neovim
+
+<sup>4</sup> https://www.nerdfonts.com/font-downloads
+
+<sup>5</sup> https://github.com/junegunn/fzf
+
+<sup>6</sup> https://github.com/BurntSushi/ripgrep
