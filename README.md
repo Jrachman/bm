@@ -15,7 +15,6 @@
 2. Open Kitty and click on kitty --> Preferences. This should open up a Vim window with Kitty's settings.
 3. Copy and paste the following to the top of the settings file:
 ```
-# vim:fileencoding=utf-8:ft=conf:foldmethod=marker
 mouse_hide_wait 0
 kitty_mod cmd+shift
 map kitty_mod+equal     change_font_size all +2.0
