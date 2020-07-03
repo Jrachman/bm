@@ -1,4 +1,4 @@
-# Kitty + NeoVim + Tmux Ultimate Setup
+# Kitty + Neovim + tmux Ultimate Setup
 
 ## Notes
 
@@ -46,20 +46,29 @@ map cmd+d new_window
 
 ## Neovim
 
-1. Run the following: <sup>3</sup>
+1. Run the following: 
 
-`brew install neovim`
+`brew install neovim` <sup>3</sup>
+
+`sh -c 'curl -fLo "${XDG_DATA_HOME:-$HOME/.local/share}"/nvim/site/autoload/plug.vim --create-dirs https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim'` <sup>4</sup>
 
 `mkdir ~/.config/nvim`
 
-`cp <path_to_kitty-nvim-tmux-ultimate-setup_folder>/init.vim ~/.config/nvim/init.vim` <sup>4</sup>
+`cp <path_to_kitty-nvim-tmux-ultimate-setup_folder>/init.vim ~/.config/nvim/init.vim` <sup>5</sup>
 
 `brew tap homebrew/cask-fonts && brew cask install font-fira-code-nerd-font`
 
-`brew install fzf` <sup>5</sup>
+`brew install fzf` <sup>6</sup>
 
-`brew install ripgrep` <sup>6</sup>
+`brew install ripgrep` <sup>7</sup>
 
+2. Run `nvim` (you don't call neovim, you have to call nvim instead), type `:PlugInstall`, and then click Enter.
+
+3. Exit out of Neovim by executing `:q` until you are back in the terminal and then run `nvim` again to see the customizations.
+
+## tmux
+
+1. Run `brew install tmux`. <sup>8</sup>
 2. 
 
 ## References
@@ -69,8 +78,12 @@ map cmd+d new_window
 
 <sup>3</sup> https://github.com/neovim/neovim/wiki/Installing-Neovim
 
-<sup>4</sup> https://www.nerdfonts.com/font-downloads
+<sup>4</sup> https://github.com/junegunn/vim-plug
 
-<sup>5</sup> https://github.com/junegunn/fzf
+<sup>5</sup> https://www.nerdfonts.com/font-downloads
 
-<sup>6</sup> https://github.com/BurntSushi/ripgrep
+<sup>6</sup> https://github.com/junegunn/fzf
+
+<sup>7</sup> https://github.com/BurntSushi/ripgrep
+
+<sup>8</sup> https://medium.com/@jeongwhanchoi/install-tmux-on-osx-and-basics-commands-for-beginners-be22520fd95e
