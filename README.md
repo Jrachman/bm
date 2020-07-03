@@ -69,7 +69,8 @@ map cmd+d new_window
 ## tmux
 
 1. Run `brew install tmux`. <sup>8</sup>
-2. 
+2. Run `tmux` then run `nvim`.
+3. In Neovim, execute 
 
 ## References
 <sup>1</sup> https://sw.kovidgoyal.net/kitty/binary.html#customizing-the-installation
