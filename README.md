@@ -97,3 +97,7 @@ https://github.com/srishanbhattarai/neovim-spotify ;)
 <sup>8</sup> https://medium.com/@jeongwhanchoi/install-tmux-on-osx-and-basics-commands-for-beginners-be22520fd95e
 
 <sup>9</sup> https://github.com/edkolev/tmuxline.vim#usage
+
+## Special Thanks!
+
+Thank you to [Agnes Jang](https://github.com/agnesjang98) for teaching me about how to set all of this up, informing me about the various possible customizations, and walking me through the depths of mastering Vim.
