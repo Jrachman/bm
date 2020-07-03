@@ -59,6 +59,8 @@ map cmd+d new_window
 
 `brew install fzf` <sup>6</sup>
 
+`set rtp+=/usr/local/opt/fzf`
+
 `brew install ripgrep` <sup>7</sup>
 
 2. Run `nvim` (you don't call neovim, you have to call nvim instead), type `:PlugInstall`, and then click Enter.
