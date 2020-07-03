@@ -69,8 +69,15 @@ map cmd+d new_window
 ## tmux
 
 1. Run `brew install tmux`. <sup>8</sup>
-2. Run `tmux` then run `nvim`.
-3. In Neovim, execute 
+2. Run `cp <path_to_kitty-nvim-tmux-ultimate-setup_folder>/.tmux.conf ~/.tmux.conf`.
+3. Run `tmux` then run `nvim`.
+4. In Neovim, execute `:Tmuxline` and then `:TmuxlineSnapshot ~/.tmux.conf`. <sup>9</sup>
+5. Exit out of Neovim with `:q` and then kill your tmux session with hitting (CTRL-B)-X-Y
+6. Now, run `tmux` again and your setup should be complete.
+
+## BONUS: Spotify in Neovim!
+
+https://github.com/srishanbhattarai/neovim-spotify ;)
 
 ## References
 <sup>1</sup> https://sw.kovidgoyal.net/kitty/binary.html#customizing-the-installation
@@ -88,3 +95,5 @@ map cmd+d new_window
 <sup>7</sup> https://github.com/BurntSushi/ripgrep
 
 <sup>8</sup> https://medium.com/@jeongwhanchoi/install-tmux-on-osx-and-basics-commands-for-beginners-be22520fd95e
+
+<sup>9</sup> https://github.com/edkolev/tmuxline.vim#usage
