@@ -3,7 +3,7 @@
 ## Notes
 
 - These instructions were written primarily for <b>Mac</b> but can be translated for Linux and Windows.
-- The theme and font used throughout this setup are <b>gruvbox dark</b> and <b>FiraCode Nerd Font</b>.
+- The theme and font used throughout this setup are <b>gruvbox dark</b> <sup>2</sup> and <b>FiraCode Nerd Font</b> <sup>5</sup>.
 
 ## Preparation
 
