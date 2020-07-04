@@ -163,7 +163,7 @@ Plug 'prettier/vim-prettier', {
     \ 'ruby',
     \ 'html',
     \ 'swift' ] }
-" Plug 'neoclide/coc.nvim', {'branch': 'release'}
+Plug 'neoclide/coc.nvim', {'branch': 'release'}
 Plug 'tveskag/nvim-blame-line'
 Plug 'junegunn/gv.vim'
 Plug 'tpope/vim-fugitive'
