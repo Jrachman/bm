@@ -83,10 +83,11 @@ map cmd+d new_window
 
 `tmux source-file ~/.tmux.conf`
 
-3. Run `tmux` then run `nvim`.
-4. In Neovim, execute `:Tmuxline` and then `:TmuxlineSnapshot ~/.tmux.conf`. <sup>9</sup>
-5. Exit out of Neovim with `:q` and then kill your tmux session with hitting (CTRL-B)-X-Y
-6. Now, run `tmux` again and your setup should be complete.
+`nvim`
+
+2. In Neovim, execute `:Tmuxline` and then `:TmuxlineSnapshot ~/.tmux.conf`. <sup>9</sup>
+3. Exit out of Neovim with `:q` and then kill your tmux session with hitting (CTRL-B)-X-Y
+4. Now, run `tmux` again and your setup should be complete.
 
 ## BONUS: Spotify in Neovim!
 
