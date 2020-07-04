@@ -69,7 +69,7 @@ map cmd+d new_window
 
 ## tmux
 
-1. Run `brew install tmux`. <sup>8</sup>
+1. Run `brew install tmux` then `echo 'export PATH"/usr/local/opt/ncurses/bin:$PATH"' >> ~/.zshrc`. <sup>8</sup>
 2. Run `cp <path_to_kitty-neovim-tmux-ultimate-setup_folder>/.tmux.conf ~/.tmux.conf` and then `tmux source-file ~/.tmux.conf`.
 3. Run `tmux` then run `nvim`.
 4. In Neovim, execute `:Tmuxline` and then `:TmuxlineSnapshot ~/.tmux.conf`. <sup>9</sup>
