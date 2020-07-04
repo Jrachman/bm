@@ -82,7 +82,8 @@ map cmd+d new_window
 `nvim`
 
 2. In Neovim, execute `:Tmuxline` and then `:TmuxlineSnapshot ~/tmuxline`. <sup>9</sup>
-3. Exit out of Neovim with `:q` and then run `tmux source-file ~/.tmux.conf`.
+3. Exit out of Neovim with `:q` 
+4. Uncomment the last like of your ~/.tmux.conf file, save, and then run `tmux source-file ~/.tmux.conf`.
 4. Kill your tmux session by hitting (CTRL-a)-x-y.
 5. Now, run `tmux` again and your setup should be complete.
 
