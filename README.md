@@ -63,7 +63,7 @@ map cmd+d new_window
 
 `brew install ripgrep` <sup>7</sup>
 
-2. Run `nvim` (you don't call neovim, you have to call nvim instead), type `:PlugInstall`, and then click Enter.
+2. Run `nvim` (you don't call neovim, you have to call nvim instead), type `:PlugInstall`, and then click Enter. If there are any errors, there should be instructions that pop up to help you resolve them.
 
 3. Exit out of Neovim by executing `:q` until you are back in the terminal and then run `nvim` again to see the customizations.
 
