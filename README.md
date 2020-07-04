@@ -77,6 +77,10 @@ map cmd+d new_window
 
 `cp <path_to_kitty-neovim-tmux-ultimate-setup_folder>/.tmux.conf ~/.tmux.conf`
 
+`touch ~/tmuxline`
+
+`tmux`
+
 `tmux source-file ~/.tmux.conf`
 
 3. Run `tmux` then run `nvim`.
