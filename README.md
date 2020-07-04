@@ -78,6 +78,7 @@ map cmd+d new_window
 `cp <path_to_kitty-neovim-tmux-ultimate-setup_folder>/.tmux.conf ~/.tmux.conf`
 
 `tmux source-file ~/.tmux.conf`
+
 3. Run `tmux` then run `nvim`.
 4. In Neovim, execute `:Tmuxline` and then `:TmuxlineSnapshot ~/.tmux.conf`. <sup>9</sup>
 5. Exit out of Neovim with `:q` and then kill your tmux session with hitting (CTRL-B)-X-Y
