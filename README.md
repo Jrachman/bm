@@ -77,17 +77,12 @@ map cmd+d new_window
 
 `cp <path_to_kitty-neovim-tmux-ultimate-setup_folder>/.tmux.conf ~/.tmux.conf`
 
-`touch ~/tmuxline`
-
-`tmux`
-
-`tmux source-file ~/.tmux.conf`
-
 `nvim`
 
-2. In Neovim, execute `:Tmuxline` and then `:TmuxlineSnapshot ~/.tmux.conf`. <sup>9</sup>
-3. Exit out of Neovim with `:q` and then kill your tmux session with hitting (CTRL-B)-X-Y
-4. Now, run `tmux` again and your setup should be complete.
+2. In Neovim, execute `:Tmuxline` and then `:TmuxlineSnapshot ~/tmuxline`. <sup>9</sup>
+3. Exit out of Neovim with `:q` and then run `tmux source-file ~/.tmux.conf`.
+4. Kill your tmux session by hitting (CTRL-a)-x-y.
+5. Now, run `tmux` again and your setup should be complete.
 
 ## BONUS: Spotify in Neovim!
 
