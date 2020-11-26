@@ -73,7 +73,7 @@ map cmd+d new_window
 
 `brew install tmux`
 
-`echo 'export PATH"/usr/local/opt/ncurses/bin:$PATH"' >> ~/.zshrc`
+`echo 'export PATH="/usr/local/opt/ncurses/bin:PATH"' >> ~/.zshrc`
 
 `cp <path_to_kitty-neovim-tmux-ultimate-setup_folder>/.tmux.conf ~/.tmux.conf`
 
