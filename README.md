@@ -83,9 +83,22 @@ map cmd+d new_window
 
 2. In Neovim, execute `:Tmuxline` and then `:TmuxlineSnapshot ~/tmuxline`. <sup>9</sup>
 3. Exit out of Neovim with `:q` 
-4. Uncomment the last line of your ~/.tmux.conf file, save, and then run `tmux source-file ~/.tmux.conf`.
-4. Kill your tmux session by hitting (CTRL-a)-x-y.
-5. Now, run `tmux` again and your setup should be complete.
+4. Replace the commented-out line of your ~/.tmux.conf file with
+
+```
+# Toggle mouse on
+bind-key M \
+    set-option -g mouse on \;\
+    display-message 'Mouse: ON'
+# Toggle mouse off
+bind-key m \
+    set-option -g mouse off \;\
+    display-message 'Mouse: OFF'
+```
+
+5. Save and then run `tmux source-file ~/.tmux.conf`.
+6. Kill your tmux session by hitting (CTRL-a)-x-y.
+7. Now, run `tmux` again and your setup should be complete.
 
 ## BONUS: Spotify in Neovim!
 
