@@ -55,7 +55,7 @@ map cmd+d new_window
 
 `cp <path_to_kitty-neovim-tmux-ultimate-setup_folder>/init.vim ~/.config/nvim/init.vim` <sup>5</sup>
 
-`brew tap homebrew/cask-fonts && brew cask install font-fira-code-nerd-font`
+`brew tap homebrew/cask-fonts && brew install --cask font-fira-code-nerd-font`
 
 `brew install fzf` <sup>6</sup>
 
